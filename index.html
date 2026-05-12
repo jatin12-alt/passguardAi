@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PassguardAI</title>
+<meta http-equiv="refresh" content="0; url=password-strength-checker.html"/>
+<link rel="manifest" href="manifest.webmanifest"/>
+<meta name="theme-color" content="#07060f"/>
+<link rel="icon" href="icons/passguard-logo.svg" type="image/svg+xml"/>
+<link rel="apple-touch-icon" href="icons/icon-192.png"/>
+</head>
+<body style="margin:0;background:#07060f;color:#9088b8;font-family:system-ui,sans-serif;display:grid;place-items:center;min-height:100vh;">
+<p style="padding:24px;text-align:center;">Opening <strong style="color:#7cfbf7;">PassguardAI</strong>…</p>
+<script>
+if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
+  navigator.serviceWorker.register('./sw.js').catch(function () {});
+}
+location.replace('password-strength-checker.html');
+</script>
+<noscript><a href="password-strength-checker.html" style="color:#7cfbf7;">Continue to PassguardAI</a></noscript>
+</body>
+</html>

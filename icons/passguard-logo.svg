@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="PassguardAI">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7cfbf7"/>
+      <stop offset="50%" stop-color="#c4b5fd"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+    </linearGradient>
+    <linearGradient id="shieldFill" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#1a1730"/>
+      <stop offset="100%" stop-color="#0e0c18"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#07060f"/>
+  <path fill="url(#shieldFill)" stroke="url(#g)" stroke-width="10" stroke-linejoin="round"
+    d="M256 72 L392 132 V264 Q392 372 256 440 Q120 372 120 264 V132 Z"/>
+  <path fill="none" stroke="url(#g)" stroke-width="6" stroke-linecap="round" opacity="0.6"
+    d="M256 120 L340 156 V268 Q340 344 256 388"/>
+  <text x="256" y="310" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="132" font-weight="800" fill="url(#g)">PG</text>
+  <text x="256" y="364" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="28" font-weight="600" letter-spacing="0.35em" fill="#9088b8">AI</text>
+</svg>
